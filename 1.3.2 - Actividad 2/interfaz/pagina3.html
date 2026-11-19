@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Scientist</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#12263a;--sea:#1b998b;--sand:#f7f3ea;--coral:#e4572e}
+body{font-family:'Sora',system-ui,sans-serif;background:var(--sand);color:var(--ink);line-height:1.7}
+.navbar{background:var(--ink)}
+.navbar .nav-link{color:#cfd8e3}
+.navbar .nav-link.active{color:#fff;font-weight:600;border-bottom:3px solid var(--coral)}
+.navbar-brand{color:#fff;font-weight:800}
+.hero-title{font-weight:800;font-size:clamp(3rem,9vw,7rem);line-height:1;letter-spacing:-.03em}
+.hero-img,.sec-img{width:100%;height:320px;object-fit:cover;border-radius:.25rem}
+.badge-sea{background:var(--sea)}
+.progress-bar{background:var(--sea)}
+.accordion-button:not(.collapsed){background:var(--ink);color:#fff}
+footer{background:var(--ink);color:#cfd8e3}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md">
+<div class="container">
+<a class="navbar-brand" href="index.html">Datos 360</a>
+<button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="menu"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li><li class="nav-item"><a class="nav-link" href="pagina1.html">Página 1</a></li><li class="nav-item"><a class="nav-link" href="pagina2.html">Página 2</a></li><li class="nav-item"><a class="nav-link active" href="pagina3.html" aria-current="page">Página 3</a></li></ul></div>
+</div></nav>
+<main class="container py-5">
+<h1 class="hero-title" style="font-size:clamp(2.5rem,7vw,5rem)">Data Scientist</h1>
+<p class="lead mb-5">Predice lo que viene con modelos y estadística.</p>
+<div class="alert alert-info" role="alert"><strong>Dato rápido:</strong> Data Scientist es uno de los tres roles que hacen posible un proyecto de datos completo.</div>
+<div class="row align-items-center g-4 my-4">
+<div class="col-md-5"><img class="sec-img" src="https://picsum.photos/seed/sci0/600/400" alt="Imagen 1 de Data Scientist"></div>
+<div class="col-md-7"><p class="fs-5">El data scientist usa estadística y aprendizaje automático para construir modelos que predicen o clasifican: demanda futura, fraude, riesgo de abandono o recomendaciones.</p></div>
+</div>
+<div class="row align-items-center g-4 my-4">
+<div class="col-md-5 order-md-2"><img class="sec-img" src="https://picsum.photos/seed/sci1/600/400" alt="Imagen 2 de Data Scientist"></div>
+<div class="col-md-7"><p class="fs-5">Su flujo incluye formular hipótesis, preparar variables, entrenar modelos, evaluarlos con métricas y probarlos con experimentos antes de llevarlos a producción.</p></div>
+</div>
+<div class="row align-items-center g-4 my-4">
+<div class="col-md-5"><img class="sec-img" src="https://picsum.photos/seed/sci2/600/400" alt="Imagen 3 de Data Scientist"></div>
+<div class="col-md-7"><p class="fs-5">Además de programar, debe juzgar con criterio: elegir el modelo más simple que funcione y explicar sus límites con honestidad.</p></div>
+</div>
+<h2 class="mt-5 mb-3">Habilidades clave</h2>
+<div class="mb-3"><span class="badge badge-sea mb-1">Python / R</span><div class="progress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:90%">90%</div></div></div>
+<div class="mb-3"><span class="badge badge-sea mb-1">Machine Learning</span><div class="progress" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:85%">85%</div></div></div>
+<div class="mb-3"><span class="badge badge-sea mb-1">Estadística</span><div class="progress" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:85%">85%</div></div></div>
+<h2 class="mt-5 mb-3">Preguntas frecuentes</h2>
+<div class="accordion" id="acc">
+<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f0">¿Qué herramientas usa?</button></h3>
+<div id="f0" class="accordion-collapse collapse show" data-bs-parent="#acc"><div class="accordion-body">Python, scikit-learn, TensorFlow, PyTorch, Jupyter y herramientas de experimentación.</div></div></div>
+<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f1">¿Qué entrega?</button></h3>
+<div id="f1" class="accordion-collapse collapse" data-bs-parent="#acc"><div class="accordion-body">Modelos predictivos, experimentos y análisis avanzados que guían la estrategia.</div></div></div>
+</div>
+</main>
+<footer class="py-4 mt-5 text-center"><div class="container">Datos 360 · Actividad de Bootstrap y GitHub</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body></html>
